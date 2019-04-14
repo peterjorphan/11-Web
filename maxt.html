@@ -18,8 +18,8 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Latitude</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><font class="titlename">Latitude</font></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,10 +55,13 @@
               <h1>Max Temperature</h1>
               <hr>
               <img src="Resources/assets/images/Fig1.png" class="img-fluid" >
-              <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude)
-                  More interestingly, however, is the fact that the southern hemisphere tends to be warmer this 
-                  of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the
-                  year this data was gathered.  
+              <p>Generally speaking temperature increases the closest we are to the equator as expected. 
+                However there are some peak points in the -20 to -40 latitude range, that are even higher 
+                than the points close to the equator. Considering that this is summer in the southern hemisphere, 
+                this should represent desert areas where the temperature peaks higher, while most areas close to 
+                the equator have a more steady temperature throughout the year. I did look up the temperatures 
+                over 100F in the data set and all 4 of them are in Australia so this confirms this assumption, 
+                therefore eliminating the need to exclude any points as outliers. 
               </p>
             </div>
           </div>
@@ -71,22 +74,22 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-3 col-lg-6">
+                <div class="col-3 col-lg-6">
                   <a href="maxt.html">
                     <img src="Resources/assets/images/Fig1.png" class="img-fluid img-thumbnail">
                   </a>
                 </div>
-                <div class="col-md-3 col-lg-6">
+                <div class="col-3 col-lg-6">
                   <a href="humidity.html">
                     <img src="Resources/assets/images/Fig2.png" class="img-fluid">
                   </a>              
                 </div>
-                <div class="col-md-3 col-lg-6">
+                <div class="col-3 col-lg-6">
                   <a href="cloudiness.html">
                     <img src="Resources/assets/images/Fig3.png" class="img-fluid">
                   </a>  
                 </div>
-                <div class="col-md-3 col-lg-6">
+                <div class="col-3 col-lg-6">
                   <a href="windspeed.html">
                     <img src="Resources/assets/images/Fig4.png" class="img-fluid">
                   </a> 
@@ -98,7 +101,7 @@
   </div>
 
   <div class="container fixed-bottom fixed-bottom fixed-bottom">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
       <span class="navbar-text">
         &copy Copyright Coding Bootcamp 2019 by Peter Orphan
       </span>
