@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="Resources/style.css">
 </head>
 
 <body>
@@ -49,18 +49,53 @@
   </div>
 
   <div class="container">
-
-    <div class="row"> <!-- Row 1-->
-      <div class="col-md-8">
-        <h1>Summary: Latitude vs X</h1>
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="container-fluid">
+          <h1>Summary: Latitude vs X</h1>
+          <hr>
+          <img src="Resources/assets/images/Fig1.png" id="landingfig" align="left">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+          </p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
+            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
+            This site provides the source data and visualizations created as part of the analysis, 
+            as well as explanations and descriptions of any trends and correlations witnessed.
+          </p>
+        </div>  
       </div>
-      <div class="col-md-4">
-        <h2>Visualizations</h2>
+      <div class="col-lg-4">
+          <div class="container-fluid">
+            <div class="row">
+              <h2>Visualizations</h2>
+              <hr>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-lg-6">
+                <a href="maxt.html">
+                  <img src="Resources/assets/images/Fig1.png" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-md-3 col-lg-6">
+                <a href="humidity.html">
+                  <img src="Resources/assets/images/Fig2.png" class="img-fluid">
+                </a>              
+              </div>
+              <div class="col-md-3 col-lg-6">
+                <a href="cloudiness.html">
+                  <img src="Resources/assets/images/Fig3.png" class="img-fluid">
+                </a>  
+              </div>
+              <div class="col-md-3 col-lg-6">
+                <a href="windspeed.html">
+                  <img src="Resources/assets/images/Fig4.png" class="img-fluid">
+                </a> 
+              </div> 
+            </div>        
+          </div>  
       </div>
     </div>
-
   </div>
 
   <div class="container fixed-bottom">
@@ -70,3 +105,5 @@
       </span>
     </nav>
   </div>
+
+  </html>
