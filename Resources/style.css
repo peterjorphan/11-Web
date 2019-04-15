@@ -2,6 +2,13 @@
     width: 300px;
 }
 
+.compfig {
+    width: 400px
+}
+
+.cetnerhead {
+    text-align: "center";
+}
 /* 
 Grid Classes
 The Bootstrap grid system has four classes:
