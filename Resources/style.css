@@ -2,12 +2,9 @@
     width: 300px;
 }
 
-.firstrow {
-    margin-top: 65px;
-}
-
-.lastrow {
-    margin-bottom: 65px;
+.fixnav {
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .compfig {
